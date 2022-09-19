@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <style>
-        label {
-            text-align: left;
-        }
-        div.formulario {
-            display: block;
+        img {
+            max-width:200px;
+            max-height:150px;
+            width: auto;
+            height: auto;     
         }
     </style>
 </head>
@@ -24,19 +24,35 @@
             <a href="#">Sobre</a>
         </menu>
     </div>
-    <div class="container">
+    <div class="container" id="formulario">
+        <h1>Tony Soprano</h1>
+        <div class="imagem"><img src="tony.jpg" alt="Tony Soprano"></div>
         <form>
-            <div class="form-group col-lg-6 formulario">
-                <label for="inacionalidade">Nacionalidade</label>
-                <input type="nacionalidade" class="form-control" 
-                id="inacionalidade" aria-describedby="emailHelp">
+            <div class="row">
+                <div class="form-group col-lg-6">
+                  <label for="inacionalidade">Nacionalidade</label>
+                  <input type="text" class="form-control" id="inacionalidade" >
+                </div>
+                <div class="form-group col-lg-6">
+                    <label for="iprofissao">Profissão</label>
+                    <input type="text" class="form-control" id="iprofissao">
+                </div>
             </div>
-            <div class="form-group col-lg-6 formulario">
-                <label for="iprofissao">Profissão</label>
-                <input type="profissao" class="form-control" 
-                id="iprofissao" aria-describedby="emailHelp">
+            <div class="row">
+                <div class="form-group col-lg-6">
+                    <label for="iidade">Idade</label>
+                    <input type="text" class="form-control" id="iidade" >
+                </div>
+                <div class="form-group col-lg-6">
+                    <label for="icidade">Cidade</label>
+                    <input type="text" class="form-control" id="icidade">
+                </div>
             </div>
-        </form>
+            <div class="form-group">
+                <label for="iendereco">Endereço</label>
+                <input type="text" class="form-control" id="iendereco" >
+            </div>
+          </form>
     </div>
     <div class="container">
         <footer>Aluno: Vinícius Vilar de Morais</footer>

@@ -1,14 +1,16 @@
 @charset "utf-8";
 
+
+
 body {
     background-color: gray;
 }
 * {
-    font-family: Arial, Helvetic
+    font
 }
 div {
-    background-color: white;
     text-align: center;
+    background-color: white;
     border-radius: 20px;
     padding: 20px;
     margin-top: 20px;
@@ -20,9 +22,6 @@ a {
 a:hover {
     text-decoration: underline;
     font-weight: bold;
-}
-div.box {
-    display: inline;
 }
 h5 {
     font-weight: bold;

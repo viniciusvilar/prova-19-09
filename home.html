@@ -7,6 +7,21 @@
     <title>Home</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
+    <style>
+        #left {
+            margin: 0%;
+        }
+        #middle {
+            margin: auto;
+        }
+        #right {
+            margin: 0%;
+        }
+        img {
+            width: 246px;
+            height: 246px;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -17,41 +32,43 @@
         </menu>
     </div>
     <div class="container">
-        <div class="card" style="width: 18rem;">
-            <img src="html5-2.png" alt="html5" class="card-img-top">
-            <div class="card-body">
-                <h5>HTML 5</h5>
-                <p class="card-text">
-                    HTML5 (Hypertext Markup Language, versão 5) é 
-                    uma linguagem de marcação para a World Wide Web e é uma 
-                    tecnologia chave da Internet, originalmente proposto por 
-                    Opera Software. É a quinta versão da linguagem HTML.
-                </p>
+        <div class="row">
+            <div class="card" style="width: 18rem;" id="left">
+                <img src="logo-html5.png" alt="html5" class="card-img-top">
+                <div class="card-body">
+                    <h5>HTML 5</h5>
+                    <p class="card-text">
+                        HTML5 (Hypertext Markup Language, versão 5) é
+                        uma linguagem de marcação para a World Wide Web e é uma
+                        tecnologia chave da Internet, originalmente proposto por
+                        Opera Software. É a quinta versão da linguagem HTML.
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="css.png" alt="css3" class="card-img-top">
-            <div class="card-body">
-                <h5>CSS3</h5>
-                <p class="card-text">
-                    CSS3 é a terceira mais nova versão das famosas Cascading Style Sheets 
-                    (ou simplesmente CSS), pela qual se define estilos para um projeto web 
-                    (página de internet). Com efeitos de transição, imagem, imagem de 
-                    fundo/background e outros, pode-se criar estilos únicos para seus 
-                    projetos web, alterando diversos aspectos de design no layout da página.
-                </p>
+            <div class="card" style="width: 18rem;" id="middle">
+                <img src="logo-css3.png" alt="css3" class="card-img-top">
+                <div class="card-body">
+                    <h5>CSS3</h5>
+                    <p class="card-text">
+                        CSS3 é a terceira mais nova versão das famosas Cascading Style Sheets
+                        (ou simplesmente CSS), pela qual se define estilos para um projeto web
+                        (página de internet). Com efeitos de transição, imagem, imagem de
+                        fundo/background e outros, pode-se criar estilos únicos para seus
+                        projetos web, alterando diversos aspectos de design no layout da página.
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="bootstrap.png" alt="bootstrap" class="card-img-top">
-            <div class="card-body">
-                <h5>Bootstrap</h5>
-                <p class="card-text">
-                    Bootstrap é um framework web com código-fonte aberto para desenvolvimento de 
-                    componentes de interface e front-end para sites e aplicações web, usando 
-                    HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, 
-                    melhorando a experiência do usuário em um site amigável e responsivo.
-                </p>
+            <div class="card" style="width: 18rem;" id="right">
+                <img src="logo-bootstrap.png" alt="bootstrap" class="card-img-top">
+                <div class="card-body">
+                    <h5>Bootstrap</h5>
+                    <p class="card-text">
+                        Bootstrap é um framework web com código-fonte aberto para desenvolvimento de
+                        componentes de interface e front-end para sites e aplicações web, usando
+                        HTML, CSS e JavaScript, baseado em modelos de design para a tipografia,
+                        melhorando a experiência do usuário em um site amigável e responsivo.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
