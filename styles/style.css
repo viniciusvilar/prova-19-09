@@ -4,8 +4,9 @@ body {
     background-color: #033E8C;
 }
 * {
-    font
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 div {
     background-color: white;
     border-radius: 20px;
