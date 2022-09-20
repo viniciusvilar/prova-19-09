@@ -1,19 +1,19 @@
 @charset "utf-8";
 
-
-
 body {
-    background-color: gray;
+    background-color: #033E8C;
 }
 * {
     font
 }
 div {
-    text-align: center;
     background-color: white;
     border-radius: 20px;
     padding: 20px;
     margin-top: 20px;
+}
+div.principal{
+    text-align: center;
 }
 .footer {
     margin-bottom: 20px;
@@ -23,6 +23,7 @@ a {
     color: black;
 }
 a:hover {
+    color: #03678f;
     text-decoration: underline;
     font-weight: bold;
 }
